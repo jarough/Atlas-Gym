@@ -4,9 +4,10 @@
 }
 
 body {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/022/653/988/non_2x/treadmill-in-modern-gym-toned-image-3d-rendering-generative-ai-free-photo.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;
-    background-position: 70%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .title-navbar {
@@ -48,7 +49,7 @@ div > h1 {
 
 .page-navbar {
     width: 100%;
-    height: 90vh;
+    height: 10vh;
 }
 
 #nav-color {
@@ -138,3 +139,11 @@ div > h1 {
     margin-bottom: 10px;
     width: 100%;
 }
+
+
+/* Carousel */
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    display: block;
+}
+
