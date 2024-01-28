@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-widthdevice-width, initial-scale=1.0">
     <title>Facilities | Atlas Gym</title>
-    <!-- style.css -->
-    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap v4.0 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
@@ -62,14 +62,72 @@
 
     <!-- Facilities Container -->
     <div class="container">
-        <h4>Weights</h4>
+        <h4 class="text-center" style="padding-top: 25px;">Personal Trainers</h4>
+        <p class="text-center">If you are a new gym member or even a long-time member, our experienced personal trainers
+            can always help you take your workout to the next step. They can assist in creating safe and effective
+            regimes
+            designed to each individual as well as offering support and motivation throughout the program.
+            <br><br>
+            Benefits to having a personal trainer are that you get to learn correct workout form to prevent injury, gain
+            more knowledge about which routines benefit you the most, and they can help set goals both short and long term.
+            <br><br>
+            Interested in taking on a personal trainer? Please enquire at reception.
+        </p>
+        <div class="embed-responsive embed-responsive-16by9">
+            <video width="900" controls>
+                <source src="images/personaltrainer.mp4" type="video/mp4">
+                Your browser does not support this type of video.
+            </video>
+        </div>
+        <p class="text-center" style="font-weight: bolder; padding-top: 10px;">Here's what some of our current gym members have to say about our personal trainers:</p>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3 px-4 text-center">
+                        <div class="review-image">
+                            <img src="images/review-pic.png" class="rounded-circle">
+                        </div>
+                        <div class="review-info">
+                            <h4>John Doe</h4>
+                            <p>"I've just begun training with Luke and I can already feel the difference. I feel I am now going in the right direction in order to meet my body weight goals."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 px-4 text-center">
+                        <div class="review-image">
+                            <img src="images/review-pic.png" class="rounded-circle">
+                        </div>
+                        <div class="review-info">
+                            <h4>Betty Smith</h4>
+                            <p>"I can't recommend my personal trainer Ally enough! She is super supportive and is teaching me how to utilise the equipment properly, something I always struggled with."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 px-4 text-center">
+                        <div class="review-image">
+                            <img src="images/review-pic.png" class="rounded-circle">
+                        </div>
+                        <div class="review-info">
+                            <h4>Richard Nicholls</h4>
+                            <p>"I've been attending this gym for the past year and never once tried a personal trainer. However, after my first session with James I can already see how much of a game changer it is to my work-ethic and sessions."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>Weights and Equipment</h4>
         <div class="row text-center">
             <div class="col-md-6">
                 <img src="images/weights.jpg">
             </div>
             <div class="col-md-6">
-                <p>We have a wide variety of weights to choose from in the Main Gym. Ranging from plates and barbells to
-                    lifting benches, there is something for everyone in terms of specific fitness and muscular goals.
+                <p>We have a wide variety of equipment to use across our gym, from cardio equipment to weights.
+                    <br>
+                    In the Main Gym, we house treadmills, cross trainers, exercise bikes and rowing machines for those
+                    looking for a cardio workout, alongside typical weights equipment such as dumbbells, lifting benches
+                    and squat racks for those looking to build muscle.
                 </p>
             </div>
         </div>
@@ -85,6 +143,22 @@
                 <p>We are proud to show off our new indoor swimming pool, featuring 4 lanes and varying depths for all
                     ages. It is open to all members of the gym for activities such as leisurely swimming, swimming
                     lessons, water aerobics and team games.</p>
+                <p style="padding-top: 15px; font-weight: bold;">
+                    Opening Hours:
+                    <br>
+                    Mon - Fri: 7:00am-6:00pm
+                    <br>
+                    Saturday: 9:00am-5:00pm
+                </p>
+                <p style="padding-top: 20px; font-weight: bold;">
+                    Adult Swimming Classes:
+                    <br>
+                    Every Wednesday, 2:00pm-3:00pm
+                    <br><br>
+                    Children's Swimming Classes:
+                    <br>
+                    Every Monday, 3:30pm - 5:00pm
+                </p>
             </div>
         </div>
         <h4>Activity Studio</h4>
@@ -93,16 +167,36 @@
                 <img src="images/studio.jpg">
             </div>
             <div class="col-md-6">
-                <p>The activity studio is home for all types of group and personalised activities as well as some individual ones. These are things such as yoga and zumba classes, along with dance classes, but may also be used for small group workouts.</p>
+                <p>The activity studio is home for all types of group and personalised activities as well as some
+                    individual ones. These are things such as yoga and zumba classes, along with dance classes, but may
+                    also be used for small group workouts.</p>
+                <p style="padding-top: 20px; font-weight: bold;">
+                    Yoga Class:
+                    <br>
+                    Every Tuesday, 12:00pm-1:30pm
+                    <br><br>
+                    Zumba Class:
+                    <br>
+                    Every Thursday, 11:30am - 1:00pm
+                </p>
             </div>
         </div>
-        <h4>Cafe</h4>
+        <h4>The Cafe</h4>
         <div class="row text-center">
             <div class="col-md-6">
                 <img src="images/cafe2.jpg">
             </div>
             <div class="col-md-6">
-                <p>Our gym cafe is the perfect place to wind down after a long workout. We cater to a wide range of preferences and all ages. From items such as sandwiches and snacks to coffees and teas, there is something for everyone.</p>
+                <p>Our gym cafe is the perfect place to wind down after a long workout. We cater to a wide range of
+                    preferences and all ages. From items such as sandwiches and snacks to coffees and teas, there is
+                    something for everyone.</p>
+                <p style="padding-top: 40px; font-weight: bold;">
+                    Opening Hours:
+                    <br><br>
+                    Mon - Fri: 7:00am-6:00pm
+                    <br>
+                    Saturday: 9:00am-5:00pm
+                </p>
             </div>
         </div>
     </div>

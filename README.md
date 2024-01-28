@@ -52,9 +52,21 @@ For new members of Atlas Gym, I want:
 
 ### Wireframes
 * Home 
+![Wireframe for index.html on desktop](images/wireframes-home-desktop.drawio.png)
+![Wireframe for index.html on tablet](images/wireframes-home-tablet.drawio.png)
+![Wireframe for index.html on mobile](images/wireframes-home-mobile.drawio.png)
 * Facilities
+![Wireframe for facilities.html on desktop](images/wireframes-facilities-desktop.drawio.png)
+![Wireframe for facilities.html on tablet](images/wireframes-facilities-tablet.drawio.png)
+![Wireframe for facilities.html on mobile](images/wireframes-facilities-mobile.drawio.png)
 * Gallery
+![Wireframe for gallery.html on desktop](images/wireframes-gallery-desktop.drawio.png)
+![Wireframe for gallery.html on tablet](images/wireframes-gallery-tablet.drawio.png)
+![Wireframe for gallery.html on mobile](images/wireframes-gallery-mobile.drawio.png)
 * Contact Us
+![Wireframe for contact.html on desktop](images/wireframes-contact-desktop.drawio.png)
+![Wireframe for contact.html on tablet](images/wireframes-contact-tablet.drawio.png)
+![Wireframe for contact.html on mobile](images/wireframes-contact-mobile.drawio.png)
 
 
 
@@ -69,9 +81,10 @@ For new members of Atlas Gym, I want:
 ## Technologies Used
 * HTML
 * CSS
-* Bootstrap
+* Bootstrap v4.0
 
 ## Testing
+used z-index for collapsed nav bar to make sure images weren't overlapping it on mobile devices
 
 ## Deployment
 
@@ -82,4 +95,15 @@ For new members of Atlas Gym, I want:
 ### Code
 ### Acknowledgements
 
+https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
+https://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp
+https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp
+https://getbootstrap.com/docs/4.1/components/carousel/
+https://stackoverflow.com/questions/76532056/bootstrap-navbar-toggler-icon-wont-change-color
+https://unsplash.com/
 
+title navbar wasnt centering text; justify content center worked
+changing color of navbar icon
+bug: navbar moving when hovering over pages

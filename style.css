@@ -156,3 +156,11 @@ label {
 .modal-content {
     background-color: rgba(0, 0, 0, 0.623) !important;
 }
+
+.card {
+    background-color: transparent;
+}
+
+.review-image img {
+    width: 50%;
+}
