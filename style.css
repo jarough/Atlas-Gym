@@ -92,6 +92,12 @@ div > h1 {
     }
 }
 
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #btn button {
     background: transparent;
     border: 2px solid white;
@@ -104,11 +110,6 @@ div > h1 {
     background-color: red;
 }
 
-@media screen and (max-width: 900px) {
-    #btn button {
-        width: 50px;
-    }
-}
 
 #ftr {
     width: 100%;
@@ -147,3 +148,11 @@ div > h1 {
     display: block;
 }
 
+label {
+    color: white;
+    font-weight: bold;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.623) !important;
+}
