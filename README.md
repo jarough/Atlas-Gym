@@ -137,7 +137,22 @@ My initial wireframes were simplified ideas about each page of the site, though 
     * The navigation bar clearly seperates all aspects of the gym into 4 seperate pages, 'Home', 'Facilities', 'Gallery' and 'Contact Us', each with their specific area to focus on.
 
 ### Site Checks
+#### W3C CSS Validation
+![](images/cssvalidate.png)
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
+#### W3C HTML Validation
+![]()
+
+#### Google Dev Tools Lighthouse
+![](images/lightouse.png)
+    
 <!-- Expected
 Testing
 Result
@@ -145,7 +160,7 @@ Fix(?) -->
 used z-index for collapsed nav bar to make sure images weren't overlapping it on mobile devices
 
 ### Bugs
-* The container of the top navigation bar seems to extend when hovering over a page option.
+* The container of the top navigation bar extends downward when hovering over a page option.
 
 ## Deployment
 This project was developed using Visual Studio Code IDE with commits to git and pushed to GitHub using Source Control.
