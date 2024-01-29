@@ -21,7 +21,6 @@
 * Acknowledgements
 
 
-
 ## UX Design
 
 ### Project Goals
@@ -132,9 +131,37 @@ My initial wireframes were simplified ideas about each page of the site, though 
     * The **Facilities** page possesses lots of photos and even a video that stand out against the dark background.
     * The **Gallery** page has two columns of pictures consisting of current gym members working out for motivation.
 4. Ease of finding out vital things such as change in membership prices or class schedules.
-    * The **Home** page contains all of this information as it is important, both the membership prices and upcoming classes are contained in their own seperate box 
+    * The **Home** page contains all of this information as it is important, both the membership prices and upcoming classes are contained in their own seperate box.
 5. A clear and simplified navigation system seperating each part of the gym into its own page.
     * The navigation bar clearly seperates all aspects of the gym into 4 seperate pages, 'Home', 'Facilities', 'Gallery' and 'Contact Us', each with their specific area to focus on.
+
+### Manual Testing
+* User expects the navigation bar to turn from a bar when viewing on desktop or tablet to a collapsed bar menu on mobile.
+    * ![](images/desktop-nav.png)
+    * ![](images/mobile-nav.png) ![](images/mobile-nav-menu.png)
+    * Tested by using Chrome Developer Tools and using the 'iPhone SE' layout.
+    * The result was as expected and the bar collapsed into a vertical menu.
+
+* User expects testimonials section to be vertical when viewing on mobile, as the viewport is not wide enough for horizontal viewing
+    * ![](images/testimonials-desktop.png)
+    * ![](images/testimonials.png)
+    * Tested by using Chrome Developer Tools and using the 'iPhone SE' layout.
+    * The result was as expected and the user testimonials became vertical.
+
+* User expects the Google Maps embed to stretch across the screen on all devices.
+    * ![](images/gmaps-desktop.png)
+    * ![](images/gmaps-mobile.png)
+    * ![](images/gmaps-tablet.png)
+    * Tested by using Chrome Developer Tools and using the 'iPhone SE' and the 'iPad Pro' layout.
+    * Expected result because the embedded 'i' element's width is set to 100%, meaning it will stretch across the page no matter what the screen size, though the total map vision does degrade over it.
+
+* User expects to see a modal pop-up after submitting their text in the enquiry box.
+    * ![](images/modal-desktop.png)
+    * ![](images/modal-mobile.png)
+    * Tested by entering a message in the enquiries form box and clicking the submit button below.
+    * Expected result, the modal is within a container so it is responsive to smaller or wider screen sizes.
+
+
 
 ### Site Checks
 #### W3C CSS Validation
@@ -148,19 +175,15 @@ My initial wireframes were simplified ideas about each page of the site, though 
 </p>
 
 #### W3C HTML Validation
-![]()
+![](images/htmlvalidate.png)
 
 #### Google Dev Tools Lighthouse
 ![](images/lightouse.png)
     
-<!-- Expected
-Testing
-Result
-Fix(?) -->
-used z-index for collapsed nav bar to make sure images weren't overlapping it on mobile devices
-
 ### Bugs
 * The container of the top navigation bar extends downward when hovering over a page option.
+* The collapsed navigation bar on mobile devices was being overlapped by images on the gallery page, tried to fix by adjusting padding and margins of the images but it didn't work.
+    * Fixed this bug by giving a high z-index to the .navbar-collapse class in the 'style.css' file.
 
 ## Deployment
 This project was developed using Visual Studio Code IDE with commits to git and pushed to GitHub using Source Control.
