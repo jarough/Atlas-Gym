@@ -92,13 +92,13 @@ div > h1 {
     }
 }
 
-#btn {
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#btn button {
+.btn button {
     background: transparent;
     border: 2px solid white;
     width: 100px;
@@ -106,7 +106,7 @@ div > h1 {
     color: white;
 }
 
-#btn button:hover {
+.btn button:hover {
     background-color: red;
 }
 

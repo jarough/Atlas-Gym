@@ -135,6 +135,9 @@ My initial wireframes were simplified ideas about each page of the site, though 
     * The **Home** page contains all of this information as it is important, both the membership prices and upcoming classes are contained in their own seperate box 
 5. A clear and simplified navigation system seperating each part of the gym into its own page.
     * The navigation bar clearly seperates all aspects of the gym into 4 seperate pages, 'Home', 'Facilities', 'Gallery' and 'Contact Us', each with their specific area to focus on.
+
+### Site Checks
+
 <!-- Expected
 Testing
 Result
